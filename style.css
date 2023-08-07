@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#background {
+    background-color: #3B5971;
+    margin: 100px;
+    width: 1000px;
+
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: white;
+}
+.text:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.fa-solid {
+    color: white;
+}
+#input {
+    background-color: #3B5971;
+    border: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+#sap {
+    font-size: 15px;
+}
+#search {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#button {
+    width: 80px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+#body {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+#left {
+    color: white;
+}
+#left-1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+#left-2 {
+    padding-bottom: 30px;
+}
+
+#left-3 {
+    display: flex;
+    border: 1px solid white;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#left-4 {
+    margin-top: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-4 #num1 :hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#left-4 #num2 :hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#left-4 #num3 :hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+#left-4 .text-1 {
+    font-size: 30px;
+}
+
+
+#body #right img {
+    height: 400px;
+}
+
+#footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#footer .text-2 {
+    color: white;
+}
